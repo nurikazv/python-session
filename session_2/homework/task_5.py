@@ -11,9 +11,9 @@
 
 
 print("Enter 3 sides lengths for triangle")
-side1 = input("First side lenght: ")
-side2 = input("Secondd side lenght: ")
-side3 = input("FiThird rst side lenght: ")
+side1 = int(input("First side lenght: "))
+side2 = int(input("Secondd side lenght: "))
+side3 = int(input("FiThird rst side lenght: "))
 
 
 if side1 == side2 == side3 : 

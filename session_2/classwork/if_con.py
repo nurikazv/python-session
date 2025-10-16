@@ -36,16 +36,16 @@
 # num = int(input("Enter your number: "))
 # div_num = int(input("Enter your dividing number: "))
 
-# if num < 0 and num % div_num == 0 : 
-#     print(f"{num} is negative and it is divisible by {div_num}")
-# elif num < 0 and num % div_num != 0 : 
-#     print(f"{num} is negative and it is not divisible by {div_num}")
-# elif num > 0 and num % div_num == 0 : 
-#     print(f"{num} is positive and it is  divisible by {div_num}")
-# elif num > 0 and num % div_num != 0 : 
-#     print(f"{num} is positive and it is not divisible by {div_num}")
-# else: 
-#     print("Something went wrong :(")
+if num < 0 and num % div_num == 0 : 
+    print(f"{num} is negative and it is divisible by {div_num}")
+elif num < 0 and num % div_num != 0 : 
+    print(f"{num} is negative and it is not divisible by {div_num}")
+elif num > 0 and num % div_num == 0 : 
+    print(f"{num} is positive and it is  divisible by {div_num}")
+elif num > 0 and num % div_num != 0 : 
+    print(f"{num} is positive and it is not divisible by {div_num}")
+else: 
+    print("Something went wrong :(")
 
 
 
